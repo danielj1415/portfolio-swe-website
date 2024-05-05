@@ -6,8 +6,8 @@
 }
 
 @font-face{
-    font-family: "SF Mono";
-    src: url("/src/assets/SF-Mono-Regular.otf");
+    font-family: "SF Mono Medium";
+    src: url("/src/assets/SF-Mono-Medium.otf");
     font-weight:100;
     font-style: normal;
 }
