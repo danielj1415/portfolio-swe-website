@@ -1,5 +1,47 @@
 @import "./fonts.css";
 
-.headerText{
-    font-family: "SF Mono Medium";
+p{
+    font-family: "SF Mono Regular";
+}
+
+.mainContainer{
+    width: 1056px;
+    height: 1056px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.navigationBar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigationBarRightItems{
+    display: flex;
+}   
+
+.navigationBarText{
+    font-size: 16px;
+}
+
+.navigationBarAbout{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.heroSectionHeadingText{
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 82px;
+    margin-bottom: 0px;
+}
+
+.heroSectionSubheadingContainer{
+    width: 904px;
+    height: 144px;
+    margin-top: -32px;  
+}
+
+.heroSectionSubheadingText{
+    font-size: 40px;
 }
