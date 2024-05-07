@@ -12,9 +12,26 @@ function HomePage(){
                         <p className = "navigationBarText">Contact</p>
                     </div>
                 </div>
-                <p className = "heroSectionHeadingText">Hello, I'm Daniel!</p>
-                <div className = "heroSectionSubheadingContainer">
-                    <p className = "heroSectionSubheadingText">Software engineer passionate about turning ideas into designs and designs into code.</p>
+                <div className = "heroSection">
+                    <p className = "heroSectionHeadingText">Hello, I'm Daniel!</p>
+                    <div className = "heroSectionSubheadingContainer">
+                        <p className = "heroSectionSubheadingText">Software engineer passionate about turning ideas into designs and designs into code.</p>
+                    </div>
+                </div>
+                <div className = "projectsSection">
+                    <p>Plant Hydroponics App</p>
+                    <div>
+                        <p>UI Design</p>
+                    </div>
+                    <div>
+                        <p>Mobile Development</p>
+                    </div>
+                    <div>
+                        <p>Application that enables users to change the pH of water for their hydroponics system</p>
+                    </div>
+                    <div className = "image">
+
+                    </div>
                 </div>
             </div>
         </div>
