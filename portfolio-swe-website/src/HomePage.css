@@ -2,6 +2,8 @@
 
 p{
     font-family: "SF Mono Regular";
+    margin: 0;
+    padding: 0;
 }
 
 .mainContainer{
@@ -14,6 +16,7 @@ p{
 .navigationBar{
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
 
 }
 .navigationBarRightItems{
@@ -25,23 +28,25 @@ p{
 }
 
 .navigationBarAbout{
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .heroSectionHeadingText{
     font-weight: bold;
     font-size: 64px;
-    margin-top: 82px;
-    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 96px;
+    margin-bottom: 8px;
 }
 
 .heroSectionSubheadingContainer{
     width: 904px;
     height: 144px;
-    margin-top: -32px;  
+    margin-left: 0px;
 }
 
 .heroSectionSubheadingText{
     font-size: 40px;
+    margin-left: 0px;
 }
