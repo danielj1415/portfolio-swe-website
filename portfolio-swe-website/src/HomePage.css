@@ -32,11 +32,16 @@ p{
     margin-right: 48px;
 }
 
+.heroSection{
+    margin-top: 144px;
+    margin-bottom: 96px;
+}
+
 .heroSectionHeadingText{
     font-weight: bold;
     font-size: 64px;
     margin-left: 0px;
-    margin-top: 96px;
+    margin-top: 0px;
     margin-bottom: 8px;
 }
 
@@ -47,6 +52,102 @@ p{
 }
 
 .heroSectionSubheadingText{
-    font-size: 40px;
+    font-size: 28px;
     margin-left: 0px;
+}
+
+.projectContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.projectName{
+    font-family: "SF Mono SemiBold";
+    font-size: 24px;
+}
+
+.projectTagContainer{
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.projectTagPlant{
+    padding: 6px;
+    background-color: #D3F6BA;
+    border-radius: 4px;
+    margin-right: 8px
+}
+
+.projectTagSpotify{
+    padding: 6px;
+    background-color: #BBCEFF;
+    border-radius: 4px;
+    margin-right: 8px
+}
+
+.projectTagText{
+    font-size: 14px;
+}
+
+.projectDescriptionContainer{
+    width: 336px;
+}
+
+.projectDescriptionText{
+    font-size: 16px;
+}
+.projectImagePlant{
+    width: 696px;
+    height: 400px;
+    background-color: #D3F6BA;
+}
+
+.projectImageSpotify{
+    width: 696px;
+    height: 400px;
+    background-color: #BBCEFF;
+}
+
+.footerSection{
+    border-top: 1px solid #919191;
+    margin-top: 176px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTextContainer{
+    margin-top: 64px;
+    width: 537px;
+}
+
+.footerText{
+    font-size: 28px;
+}
+
+.footerEmail{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.footerPhone{
+    font-size: 16px;
+    margin-bottom: 24px;
+}  
+
+.iconContainer{
+    margin-bottom: 64px;
+}
+
+.imageIcon{
+    width: 24px;
+    height: 24px;
+    background-color: aquamarine;
+    margin-right: 8px;
+}
+
+.footerText2{
+    margin-top: 64px;
 }
