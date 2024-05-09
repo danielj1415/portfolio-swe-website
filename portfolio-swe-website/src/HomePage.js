@@ -1,4 +1,8 @@
 import './HomePage.css';
+import iconGithub from "./assets/images/iconGithub.svg";
+import iconLinkedIn from "./assets/images/iconLinkedIn.svg";
+import imagePlantProjectCover from "./assets/images/imagePlantProjectCover.png";
+import imageSpotifyProjectCover from "./assets/images/imageSpotifyProjectCover.png";
 
 function HomePage(){
     return(
@@ -35,9 +39,7 @@ function HomePage(){
                                 <p className = "projectDescriptionText">Application that enables users to change the pH of water for their hydroponics system.</p>
                             </div>
                         </div>
-                        <div className = "projectImagePlant">
-
-                        </div>
+                        <img src = {imagePlantProjectCover} className = "projectImagePlant"/>
                     </div>
                     {/*Project: Spotify Clone Website*/}
                     <div className = "projectContainer">
@@ -52,9 +54,7 @@ function HomePage(){
                                 <p className = "projectDescriptionText">Website that aims to replicate the functionality and interface of the Spotify Web Player. </p>
                             </div>
                         </div>
-                        <div className = "projectImageSpotify">
-
-                        </div>
+                        <img src = {imageSpotifyProjectCover} className = "projectImageSpotify"/>
                     </div>
                 </div>
                 <div className = "footerSection">
@@ -65,8 +65,8 @@ function HomePage(){
                         <p className = "footerEmail">email: danielj1415@gmail.com</p>
                         <p className = "footerPhone">phone: (626) 518-2422</p>
                         <div className = "iconContainer">
-                            <img className = "imageIcon"/>
-                            <img className = "imageIcon"/>
+                            <img src = {iconLinkedIn} className = "imageIcon"/>
+                            <img src = {iconGithub} className = "imageIcon"/>
                         </div>
                     </div>
                     <p className = "footerText2">Made with 🧋☕️✨ </p>
