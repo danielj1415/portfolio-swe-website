@@ -3,16 +3,22 @@ import iconGithub from "./assets/images/iconGithub.svg";
 import iconLinkedIn from "./assets/images/iconLinkedIn.svg";
 import imagePlantProjectCover from "./assets/images/imagePlantProjectCover.png";
 import imageSpotifyProjectCover from "./assets/images/imageSpotifyProjectCover.png";
+import { Outlet, Link } from "react-router-dom";
 
 function HomePage(){
+
+    const linkStyles = {
+        color: 'red'
+    }
+
     return(
         <div>
             <div className = "mainContainer">
                 <div className = "navigationBar">
                     <p className = "navigationBarText">Daniel Jong</p>
                     <div className = "navigationBarRightItems">
-                        <p className = "navigationBarText">Work</p>
-                        <p className = "navigationBarText navigationBarAbout">About</p>
+                        <p className = "navigationBarText underlined">Work</p>
+                        <Link className = "navigationBarAbout" to="/about">About</Link>
                         <p className = "navigationBarText">Contact</p>
                     </div>
                 </div>
