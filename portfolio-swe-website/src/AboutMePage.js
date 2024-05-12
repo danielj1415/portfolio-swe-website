@@ -15,11 +15,22 @@ function AboutMePage(){
                         <p className = "navigationBarText">Contact</p>
                     </div>
                 </div>
-                <div className = "container">
-                    <p>Hello, I'm Daniel</p>
+                <div className = "aboutMeFirstSectionContainer">
+                    <p className = "aboutMeHeading">Hello, I'm Daniel</p>
                     <p>I am a software engineer based in the Los Angeles area. My journey in coding began back in 2019 with a simple Hello World in C++ and has now evolved to more complex programs.</p>
                     <p>I am passionate about bringing interface designs to life in code and connecting the front-end part of applications to back-end databases and technologies. In addition, I am experienced in product design to create beautiful user-interfaces for websites and mobile applications.</p>
+                    <p>Skills</p>
+                    <p>React Native</p>
+                    <p>React</p>
+                    <p>Firebase</p>
+                    <p>C++/C</p>
+                    <p>Python</p>
+                    <p>Flutter</p>
+                    <p>Education</p>
+                    <p>Bachelor's of Science in Computer Engineering</p>
+                    <p>University of Califoria, Irvine 2021 - 2024</p>
                 </div>
+                
                 
                 <div className = "footerSection">
                     <div className = "footerLargeContainer">

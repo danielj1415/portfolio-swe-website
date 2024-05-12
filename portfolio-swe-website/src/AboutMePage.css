@@ -1,8 +1,13 @@
 
-.container{
+.aboutMeFirstSectionContainer{
     max-width: 516px;
 }
 
-.container p {
+.aboutMeFirstSectionContainer p {
     word-wrap: break-word;
+}
+
+.aboutMeHeadingP{
+    font-family: "SF Mono Bold";
+    font-size: 44px;
 }
