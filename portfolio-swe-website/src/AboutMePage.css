@@ -1,0 +1,8 @@
+
+.container{
+    max-width: 516px;
+}
+
+.container p {
+    word-wrap: break-word;
+}
