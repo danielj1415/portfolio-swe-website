@@ -36,12 +36,18 @@ function AboutMePage(){
                             <div className = "educationContainer">
                                 <p className = "aboutMeHeading2">Education</p>
                                 <p className = "aboutMeHeading2-5">Bachelor's Degree in Computer Engineering</p>
-                                <p className = "aboutMeParagraph">University of Califoria, Irvine</p>
+                                <p className = "aboutMeParagraph school">University of Califoria, Irvine</p>
                                 <p className = "aboutMeParagraph">2021 - 2024</p>
                             </div>
                         </div>
                     </div>
                     <img className = "imageDaniel" src = {imageDaniel}/>
+                </div>
+                <div>
+                    <p>Hobbies I do outside of work:</p>
+                    <p>Gym 💪🏻: Going to the gym is part of my daily routine and is a way to work on myself physically. I am able to bench 250 and squat 315 pounds. </p>
+                    <p>Games 🎮: In my free time, I love to pick up my controller and play games with people. Currently, I am playing Super Smash Bros Ultimate and Pokemon Violet. </p>
+                    <p>Piano 🎹: I love to play songs from my favorite movies and games. Also, I currently play piano for my church’s youth ministry. </p>
                 </div>
                 
                 
