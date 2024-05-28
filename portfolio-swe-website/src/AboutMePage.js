@@ -9,10 +9,11 @@ function AboutMePage(){
     <div>
         <div className = "mainContainer">
                 <div className = "navigationBar">
-                    <p className = "navigationBarText">Daniel Jong</p>
+                    <Link className = "navigationBarText" to ="/">Daniel Jong</Link>
                     <div className = "navigationBarRightItems">
-                        <p className = "navigationBarText underlined">Work</p>
-                        <Link className = "navigationBarAbout" to="/about">About</Link>
+                        <Link className = "navigationBarText" to ="/">Work</Link>
+                        <Link className = "navigationBarAbout underlined" to="/about">About</Link>
+                        <a className="navigationBarText resume" href="https://docs.google.com/document/d/12nxaGq7QP7QM-EPaiysvYYUrQqJ_O-GYS3DdN2PZnwk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                         <p className = "navigationBarText">Contact</p>
                     </div>
                 </div>
@@ -43,14 +44,12 @@ function AboutMePage(){
                     </div>
                     <img className = "imageDaniel" src = {imageDaniel}/>
                 </div>
-                <div>
-                    <p>Hobbies I do outside of work:</p>
-                    <p>Gym 💪🏻: Going to the gym is part of my daily routine and is a way to work on myself physically. I am able to bench 250 and squat 315 pounds. </p>
-                    <p>Games 🎮: In my free time, I love to pick up my controller and play games with people. Currently, I am playing Super Smash Bros Ultimate and Pokemon Violet. </p>
-                    <p>Piano 🎹: I love to play songs from my favorite movies and games. Also, I currently play piano for my church’s youth ministry. </p>
+                <div className = "aboutMeSecondSectionContainer">
+                    <p className = "aboutMeHeading2">Hobbies I do outside of work:</p>
+                    <p className = "aboutMeParagraph smallerText"><strong>Gym 💪🏻:</strong> Going to the gym is part of my daily routine and is a way to work on myself physically. I am able to bench 250 and squat 315 pounds. </p>
+                    <p className = "aboutMeParagraph middle smallerText"><strong>Games 🎮:</strong> In my free time, I love to pick up my controller and play games with people. Currently, I am playing Super Smash Bros Ultimate and Pokemon Violet. </p>
+                    <p className = "aboutMeParagraph smallerText"><strong>Piano 🎹:</strong> I love to play songs from my favorite movies and games. Also, I currently play piano for my church’s youth ministry. </p>
                 </div>
-                
-                
                 <div className = "footerSection">
                     <div className = "footerLargeContainer">
                         <div className = "footerTextContainer">

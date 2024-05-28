@@ -44,9 +44,25 @@ a{
     margin-right: 48px;
 }
 
+.resume{
+    margin-right: 48px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 .heroSection{
-    margin-top: 144px;
-    margin-bottom: 96px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-color: white;
+    animation: fadeIn 1s ease-out forwards;
 }
 
 .heroSectionHeadingText{
@@ -59,13 +75,11 @@ a{
 
 .heroSectionSubheadingContainer{
     width: 904px;
-    height: 144px;
     margin-left: 0px;
 }
 
 .heroSectionSubheadingText{
     font-size: 28px;
-    margin-left: 0px;
 }
 
 .projectContainer{

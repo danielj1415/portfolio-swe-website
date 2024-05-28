@@ -1,0 +1,93 @@
+.projectContentContainerTitleInfo{
+    display:flex;
+    margin-top: 120px;
+}
+
+.px40{
+    font-size: 40px;
+}
+
+.px44{
+    font-size: 44px;
+}
+
+.px16{
+    font-size: 16px;
+}
+
+.bold{
+    font-family: "SF Mono Bold";
+}
+
+.projectContentTimeline{
+    margin-bottom: 16px;
+}
+
+.marginBottom4px{
+    margin-bottom: 4px;
+}
+
+.marginTop72px{
+    margin-top: 72px;
+}
+
+.test{
+    width: 572px;
+}
+
+.projectContentTitleHeading{
+    margin-right: 148px;
+}
+
+.imagePlantProject{
+    width: 1056px;
+    height: 538px;
+    margin-top: 48px;
+}
+
+.dividerOverview{
+    height: 1px;
+    width: 842px;
+    background-color: #d9d9d9;
+    margin-left: 16px;
+}
+
+.dividerDesignProcess{
+    height: 1px;
+    width: 693px;
+    background-color: #d9d9d9;
+    margin-left: 16px;
+}
+
+.horizontal{
+    display: flex;
+    align-items: center;
+}
+
+.semibold{
+    font-family: "SF Mono Semibold";
+}
+
+.px30{
+    font-size: 30px;
+}
+
+.marginBottom8px{
+    margin-bottom: 8px;
+}
+
+.bigParagraph{
+    width: 1000px;
+}
+
+.marginTop16px{
+    margin-top: 16px;
+}
+
+.marginTop48px{
+    margin-top: 48px;
+}
+
+.marginTop20px{
+    margin-top: 20px;
+}

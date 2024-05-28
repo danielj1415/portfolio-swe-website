@@ -15,10 +15,11 @@ function HomePage(){
         <div>
             <div className = "mainContainer">
                 <div className = "navigationBar">
-                    <p className = "navigationBarText">Daniel Jong</p>
+                <Link className = "navigationBarText" to ="/">Daniel Jong</Link>
                     <div className = "navigationBarRightItems">
-                        <p className = "navigationBarText underlined">Work</p>
+                        <Link className = "navigationBarText underlined" to ="/">Work</Link>
                         <Link className = "navigationBarAbout" to="/about">About</Link>
+                        <a className="navigationBarText resume" href="https://docs.google.com/document/d/12nxaGq7QP7QM-EPaiysvYYUrQqJ_O-GYS3DdN2PZnwk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                         <p className = "navigationBarText">Contact</p>
                     </div>
                 </div>
@@ -45,7 +46,9 @@ function HomePage(){
                                 <p className = "projectDescriptionText">Application that enables users to change the pH of water for their hydroponics system.</p>
                             </div>
                         </div>
-                        <img src = {imagePlantProjectCover} className = "projectImagePlant"/>
+                        <Link to="/plant">
+                            <img src = {imagePlantProjectCover} className = "projectImagePlant"/>
+                        </Link>
                     </div>
                     {/*Project: Spotify Clone Website*/}
                     <div className = "projectContainer">
